@@ -2,9 +2,9 @@ timeout = 120
 options.namespace = false
 
 account_name = IMAP {
-                      server = 'imap.beget.com',
-                      username = 'support@beget.ru',
-                      password = 'npdmbu5n',
+                      server = 'imap.server.name',
+                      username = 'box@domain.name',
+                      password = 'password',
    }
 
 mailboxes, folders = account_name:list_subscribed()
